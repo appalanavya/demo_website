@@ -4,9 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Tailwind utilities */
 @layer base {
   body {
-    @apply bg-dark text-white font-sans antialiased scroll-smooth;
+    @apply text-white font-sans antialiased scroll-smooth;
+    background-color: #111; /* replace bg-dark with actual color */
   }
   
   h1, h2, h3, h4, h5, h6 {
